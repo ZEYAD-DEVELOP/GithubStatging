@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  /// Builds the widget tree for this app.
+  /// Builds the widget tree for this app.[Github]
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -32,6 +32,5 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(appBar: AppBar(title: const Text('Github Statgung'))));
-
   }
 }
