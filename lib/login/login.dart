@@ -20,6 +20,7 @@ class LoginScreen extends StatelessWidget {
             onPressed: () {
               Navigator.of(context).pushNamed('/home');
             },
+
             child: const Text('Home'),
           ),
         ],
