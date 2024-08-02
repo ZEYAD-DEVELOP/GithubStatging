@@ -16,6 +16,12 @@ class LoginScreen extends StatelessWidget {
             },
             child: const Text('Back'),
           ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed('/home');
+            },
+            child: const Text('Home'),
+          ),
         ],
       ),
     );
